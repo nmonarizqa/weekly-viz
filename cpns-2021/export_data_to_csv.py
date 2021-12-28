@@ -87,7 +87,6 @@ def get_info_from_table(df_):
     final_skb = final_skb.to_dict()
 
     base_data =  {
-        "nama": df_.iloc[1,3],
         "no_peserta": df_.iloc[1,1],
         "kode_pendidikan": df_.iloc[1,2],
         "tanggal_lahir": df_.iloc[1,8],
